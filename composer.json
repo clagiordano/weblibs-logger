@@ -1,0 +1,8 @@
+{
+    "name": "clagiordano/weblibs-logger",
+    "autoload": {
+        "psr-4": {
+            "clagiordano\\weblibs\\logger\\": "src/"
+        }
+    }
+}
