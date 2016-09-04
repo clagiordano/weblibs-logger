@@ -1,8 +1,34 @@
 {
     "name": "clagiordano/weblibs-logger",
+    "description": "Library for logging facility",
+    "type": "library",
+    "homepage": "https://github.com/clagiordano/weblibs-logger.git",
+    "license": "LGPL-3.0",
+    "keywords": ["clagiordano", "weblibs", "logger", "graylog", "database", "log", "library", "mysql", "pdo"],
+    "authors": [
+        {
+            "name": "Claudio Giordano",
+            "email": "claudio.giordano@autistici.org",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "claudio.giordano@autistici.org"
+    },
     "autoload": {
         "psr-4": {
             "clagiordano\\weblibs\\logger\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "clagiordano\\weblibs\\logger\\tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
     }
 }
