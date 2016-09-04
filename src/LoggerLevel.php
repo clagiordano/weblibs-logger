@@ -1,6 +1,6 @@
 <?php
 
-namespace clagiordano\weblibs\php;
+namespace clagiordano\weblibs\logger;
 
 /**
  * Simple class for multi level log operations,
